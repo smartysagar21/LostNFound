@@ -1,0 +1,27 @@
+<%-include("partials/header")-%>
+
+
+
+
+<div class="imagecontainer">
+    <div class="WDchllng">
+        <form action="/found" method="post" class="container">
+            <h1 class="heading">Submition Form</h1>
+            <p>Please fill all information </p>
+            <p>Name: <input type="text" name="name" placeholder="Divyanshu Kumar" id="name"></p>
+            <p>Email: <input type="email" name="email" placeholder="xyz@xyz.com" id="email"></p>
+            <p>Phone number <input type="number" name="number" placeholder="1234567890" id="phone number"></p>
+            <p>Item Name<textarea placeholder="Object Name" name="item" id="Adresss" cols="1" rows="1"></textarea></p>
+
+            <p>Enter Item Description<textarea placeholder="Enter your message:" name="message" id="Adresss" cols="30" rows="10"></textarea></p>
+
+            <p>Upload images:<input type="file" id="myFile" name="image"></p>
+            <p><button type="submit">Submit</button></p>
+
+        </form>
+      </div>
+</div>
+
+
+
+<%-include("partials/footer")-%>

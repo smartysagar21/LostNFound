@@ -1,0 +1,12 @@
+<%-include("partials/header")-%>
+
+
+<%for(let i=0; i<lostObjects.length; i++){%>
+
+    <p><a href=<%="/item/"+lostObjects[i].item%>><%=lostObjects[i].item%></a></p>
+    <p><%=lostObjects[i].image%></p>
+
+<%}%>
+
+
+<%-include("partials/footer")-%>
